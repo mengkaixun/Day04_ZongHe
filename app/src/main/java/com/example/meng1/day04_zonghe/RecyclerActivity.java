@@ -47,7 +47,7 @@ public class RecyclerActivity extends AppCompatActivity {
 
         initData();
     }
-
+    //添加一个新的注释
     private void initData() {
         OkHttpClient okHttpClient = new OkHttpClient();
         final Request request = new Request.Builder().url("http://192.168.43.195:8080/test/data.json").build();
